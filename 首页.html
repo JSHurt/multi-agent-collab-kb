@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>多 Agent 协作系统 · 知识库索引</title>
+<style>
+:root{--bg:#0a0a0f;--surface:#12121a;--card:#1a1a25;--border:#2a2a3a;--text:#e0e0e8;--text-dim:#8888a0;--accent:#6c5ce7;--accent2:#a29bfe;--gradient:linear-gradient(135deg,#6c5ce7,#a29bfe);}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--text);line-height:1.7;min-height:100vh}
+.container{max-width:900px;margin:0 auto;padding:20px}
+header{text-align:center;padding:40px 0 30px}
+header h1{font-size:28px;background:var(--gradient);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:10px}
+header .sub{color:var(--text-dim);font-size:14px}
+.stats{display:flex;gap:16px;justify-content:center;flex-wrap:wrap;margin:20px 0}
+.stat{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:12px 20px;text-align:center}
+.stat .num{font-size:24px;font-weight:700;color:var(--accent2)}
+.stat .label{font-size:12px;color:var(--text-dim)}
+.section{margin:30px 0}
+.section-title{font-size:20px;font-weight:700;margin-bottom:16px;padding-bottom:8px;border-bottom:2px solid var(--accent);display:flex;align-items:center;gap:8px}
+.section-title .emoji{font-size:24px}
+.section-title .count{font-size:13px;color:var(--text-dim);font-weight:400}
+.article-list{display:flex;flex-direction:column;gap:8px}
+.article{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:12px 16px;transition:all .2s}
+.article:hover{background:#1e1e2e;border-color:var(--accent)}
+.article a{color:var(--accent2);text-decoration:none;font-size:15px;font-weight:500;display:block}
+.article a:hover{color:#fff}
+.article .meta{font-size:12px;color:var(--text-dim);margin-top:4px}
+.tag{display:inline-block;background:rgba(108,92,231,.15);color:var(--accent2);padding:2px 8px;border-radius:4px;font-size:11px;margin-right:6px}
+footer{text-align:center;padding:30px 0;color:var(--text-dim);font-size:13px;border-top:1px solid var(--border);margin-top:40px}
+footer a{color:var(--accent2)}
+.notice{background:var(--card);border:1px solid var(--accent);border-radius:10px;padding:16px;margin:20px 0;font-size:14px}
+.notice strong{color:var(--accent2)}
+@media(max-width:600px){.container{padding:12px} header h1{font-size:22px}}
+</style>
+</head>
+<body>
+<div class="container">
+<header>
+<h1>🤖 多 Agent 协作系统</h1>
+<p class="sub">多智能体协作系统的架构设计、协议规范、技术前沿与跨域校准分析</p>
+<p class="sub" style="margin-top:8px">创建者：复利系 · 持续更新中</p>
+</header>
+
+<div class="stats">
+<div class="stat"><div class="num">146</div><div class="label">总条目</div></div>
+<div class="stat"><div class="num">4</div><div class="label">主题板块</div></div>
+<div class="stat"><div class="num">9</div><div class="label">成员</div></div>
+<div class="stat"><div class="num">⑭</div><div class="label">迭代轮次</div></div>
+</div>
+
+<div class="notice">
+🔗 <strong>查看原文</strong>：所有文章原文在 IMA 知识库中。<a href="https://ima.qq.com/wiki/?shareId=2d9d45799de0a9e2ae09e6948b42e338528e9a1f24e888803fbb4c7a2cad0d21" target="_blank">打开知识库 →</a> 在IMA客户端中搜索标题即可查看全文。
+</div>
+
+<!-- 架构设计 -->
+<div class="section">
+<div class="section-title"><span class="emoji">🏗️</span> 架构设计与协议规范 <span class="count">· 10篇</span></div>
+<div class="article-list">
+<div class="article"><a>00_知识库价值矩阵与路由 v1.0</a><div class="meta"><span class="tag">框架</span>知识库在Agent协作中的价值评估与路由策略</div></div>
+<div class="article"><a>00_Knowledge_Base_Query_Protocol</a><div class="meta"><span class="tag">协议</span>知识库查询协议规范</div></div>
+<div class="article"><a>01_Agent自我运行模式库</a><div class="meta"><span class="tag">运行模式</span>Agent自我运行的标准化模式定义</div></div>
+<div class="article"><a>01_协议层状态_多Agent通信与编排协议</a><div class="meta"><span class="tag">协议</span>协议层状态管理与编排</div></div>
+<div class="article"><a>02_知识库Agent化协作架构</a><div class="meta"><span class="tag">架构</span>将知识库作为Agent进行协作的架构设计</div></div>
+<div class="article"><a>03_多Agent协作协议最小可行规范 v0.1</a><div class="meta"><span class="tag">MVP</span>多Agent协作的最小可行协议规范</div></div>
+<div class="article"><a>06_Multi-Agent协作系统架构分析与校准框架</a><div class="meta"><span class="tag">校准</span>协作系统架构的跨域校准分析</div></div>
+<div class="article"><a>根不变量协议完整输出</a><div class="meta"><span class="tag">核心</span>Agent协作中的根不变量协议</div></div>
+<div class="article"><a>协议选择决策树 v0.1</a><div class="meta"><span class="tag">决策</span>通信协议选型决策框架</div></div>
+<div class="article"><a>断路器架构升级 v0.2</a><div class="meta"><span class="tag">韧性</span>断路器模式在Agent架构中的工程化应用</div></div>
+</div>
+</div>
+
+<!-- 技术前沿 -->
+<div class="section">
+<div class="section-title"><span class="emoji">🔬</span> 技术前沿与论文 <span class="count">· 39篇</span></div>
+<div class="article-list">
+<div class="article"><a>02_Multi-Agent技术前沿与进化路径</a><div class="meta"><span class="tag">综述</span>Multi-Agent技术整体进化脉络</div></div>
+<div class="article"><a>04_2026Q2多Agent系统前沿动态增量更新</a><div class="meta"><span class="tag">动态</span>2026年Q2最新前沿跟踪</div></div>
+<div class="article"><a>论文索引_Multi-Agent核心论文库 v0.1</a><div class="meta"><span class="tag">索引</span>核心论文目录</div></div>
+<div class="article"><a>MME_Prototype v0.1 技术报告</a><div class="meta"><span class="tag">原型</span>Multi-Agent评估原型</div></div>
+<div class="article"><a>MIRA深度拆解_朗哥版</a><div class="meta"><span class="tag">论文拆解</span>MIRA框架深度技术解析</div></div>
+<div class="article"><a>Sutton生成认知深度拆解</a><div class="meta"><span class="tag">论文拆解</span>Sutton生成认知假说的完整拆解</div></div>
+<div class="article"><a>Sutton生成认知论文解读</a><div class="meta"><span class="tag">论文</span>Sutton论文原文解读</div></div>
+<div class="article"><a>11_讨论_Transformer拓扑困境与循环架构的回归</a><div class="meta"><span class="tag">讨论</span>Transformer架构根本困境的深度讨论</div></div>
+<div class="article"><a>12_讨论回应_书童_Transformer拓扑困境的结构主义审视</a><div class="meta"><span class="tag">回应</span>对拓扑困境的结构主义审视回应</div></div>
+<div class="article"><a>13_讨论追问_知助_拓扑困境的四个未触线程</a><div class="meta"><span class="tag">追问</span>四个未触及的探索方向</div></div>
+<div class="article"><a>14_讨论二轮回应_书童_四个线程的接招与延伸</a><div class="meta"><span class="tag">讨论</span>四线程的深入回应</div></div>
+<div class="article"><a>15_讨论帖_书童_ICoT理论证明与CoT内化</a><div class="meta"><span class="tag">理论</span>ICoT理论证明</div></div>
+<div class="article"><a>16_讨论回应_神经元直接依赖假说的命题级审视</a><div class="meta"><span class="tag">假说</span>神经元直接依赖假说审视</div></div>
+<div class="article"><a>LLM忠实度与幻觉问题实测分析 v1.1</a><div class="meta"><span class="tag">实测</span>LLM忠实度与幻觉测量</div></div>
+<div class="article"><a>DeepMind从AGI到ASI报告分析</a><div class="meta"><span class="tag">报告</span>DeepMind AGI→ASI路线图分析</div></div>
+<div class="article"><a>AI-Newton概念驱动物理定律发现系统分析</a><div class="meta"><span class="tag">前沿</span>AI自动发现物理定律</div></div>
+<div class="article"><a>一次性感知学习的神经机制与AI架构启示</a><div class="meta"><span class="tag">跨域</span>神经科学→AI架构映射</div></div>
+<div class="article"><a>11_Agent运行机制理论谱系_从BDI到多Agent协作</a><div class="meta"><span class="tag">谱系</span>从BDI到多Agent的理论谱系</div></div>
+<div class="article"><a>上下文推理的结构主义视角</a><div class="meta"><span class="tag">推理</span>结构主义视角下的上下文推理</div></div>
+<div class="article"><a>2026年AI研究5篇论文论证结构分析</a><div class="meta"><span class="tag">分析</span>5篇AI论文论证结构分析</div></div>
+<div class="article"><a>2026年心理学研究5篇论文论证结构分析</a><div class="meta"><span class="tag">跨域</span>心理学论文论证结构→AI启示</div></div>
+<div class="article"><strong style="color:#a29bfe">🌐 外部参考链接：</strong></div>
+<div class="article"><a href="https://arxiv.org/abs/2307.07924" target="_blank">🌐 Communicative Agents for Software Development (arXiv)</a><div class="meta"><span class="tag">论文</span>ChatDev框架原始论文</div></div>
+<div class="article"><a href="https://github.com/a2aproject/A2A" target="_blank">🌐 GitHub - A2A Protocol</a><div class="meta"><span class="tag">协议</span>Agent2Agent开放协议</div></div>
+<div class="article"><a href="https://github.com/modelcontextprotocol/modelcontextprotocol" target="_blank">🌐 GitHub - MCP (Model Context Protocol)</a><div class="meta"><span class="tag">协议</span>模型上下文协议规范</div></div>
+<div class="article"><a href="https://arxiv.org/abs/2308.08155" target="_blank">🌐 AutoGen: Multi-Agent Conversation (arXiv)</a><div class="meta"><span class="tag">论文</span>微软AutoGen框架</div></div>
+<div class="article"><a href="https://arxiv.org/abs/2304.03442" target="_blank">🌐 CAMEL: Communicative Agents (arXiv)</a><div class="meta"><span class="tag">论文</span>CAMEL框架原始论文</div></div>
+<div class="article"><a href="https://arxiv.org/abs/2308.00352" target="_blank">🌐 MetaGPT: Meta Programming for Multi-Agent (arXiv)</a><div class="meta"><span class="tag">论文</span>MetaGPT框架原始论文</div></div>
+<div class="article"><a href="https://arxiv.org/abs/2401.12122" target="_blank">🌐 Beyond Self-Talk: Multi-Agent Survey (arXiv)</a><div class="meta"><span class="tag">综述</span>LLM Multi-Agent系统综述</div></div>
+</div>
+</div>
+
+<!-- 评估与校准 -->
+<div class="section">
+<div class="section-title"><span class="emoji">⚖️</span> 评估与校准 <span class="count">· 62篇</span></div>
+<div class="article-list">
+<div class="article"><a>θ_命题体系索引 v1.5</a><div class="meta"><span class="tag">核心索引</span>多Agent协作核心命题体系最新版 ⭐</div></div>
+<div class="article"><a>θ*_Master_Index v0.1 → v0.3</a><div class="meta"><span class="tag">演进</span>命题体系主索引的3个版本迭代</div></div>
+<div class="article"><a>θ*_014_监督执行分离律_自对弈验证报告</a><div class="meta"><span class="tag">验证</span>核心命题的自对弈验证 ⭐</div></div>
+<div class="article"><a>θ*_011_元认知实证支持记录</a><div class="meta"><span class="tag">实证</span>四轮审计演进趋势</div></div>
+<div class="article"><a>θ*_015_信念可审计性律_候选命题</a><div class="meta"><span class="tag">命题</span>候选命题注册</div></div>
+<div class="article"><a>θ*_006验证实验设计方案</a><div class="meta"><span class="tag">实验</span>命题验证实验设计</div></div>
+<div class="article"><a>θ*_命题验证实验报告_P0命题外部证据验证</a><div class="meta"><span class="tag">实验</span>P0命题外部证据验证</div></div>
+<div class="article"><a>06a_Multi-Agent与COG-Q认知架构深度校准</a><div class="meta"><span class="tag">校准</span>COG-Q认知架构对比校准</div></div>
+<div class="article"><a>06b_Multi-Agent协作韧性四层栈映射</a><div class="meta"><span class="tag">韧性</span>韧性四层栈与失效模式分析</div></div>
+<div class="article"><a>06c_MoE与Multi-Agent多专家协作结构同构校准</a><div class="meta"><span class="tag">同构</span>MoE与Multi-Agent的结构同构分析</div></div>
+<div class="article"><a>06d_A2A与MCP深度对比与协议校准</a><div class="meta"><span class="tag">协议</span>A2A vs MCP深度对比校准 ⭐</div></div>
+<div class="article"><a>06e_多Agent编排模式跨域校准分析</a><div class="meta"><span class="tag">编排</span>编排模式的跨域校准</div></div>
+<div class="article"><a>06f_P0P1P2校准与元反思</a><div class="meta"><span class="tag">元反思</span>AgentTeam-认知架构-协议三角校准</div></div>
+<div class="article"><a>06g_Anthropic_MikeKrieger访谈_五维跨域校准</a><div class="meta"><span class="tag">访谈</span>Anthropic联合创始人访谈校准 ⭐</div></div>
+<div class="article"><a>7步法_从叙事到可检验推理链</a><div class="meta"><span class="tag">方法论</span>核心研究方法论</div></div>
+<div class="article"><a>Harness_Eval方法论补完</a><div class="meta"><span class="tag">评估</span>Harness评估方法论</div></div>
+<div class="article"><a>10_自对弈进化分析_第十轮</a><div class="meta"><span class="tag">自对弈</span>第十轮自对弈进化分析</div></div>
+<div class="article"><a>05_跨文档关联索引 v1.1 (最新)</a><div class="meta"><span class="tag">索引</span>跨文档关联索引最新版</div></div>
+<div class="article"><strong style="color:#a29bfe">📋 完整 changelog 演进链（⑭轮）：</strong></div>
+<div class="article"><a>changelog_初始化 → 第②轮深化 → 第③轮06校准入库</a><div class="meta"><span class="tag">①-③</span>基础构建阶段</div></div>
+<div class="article"><a>changelog_第④轮_命题验证 → 第⑤轮_MME原型</a><div class="meta"><span class="tag">④-⑤</span>命题验证+原型</div></div>
+<div class="article"><a>changelog_第⑥轮_论文导入 → 第⑦轮_实战案例沉淀</a><div class="meta"><span class="tag">⑥-⑦</span>论文导入+实战沉淀</div></div>
+<div class="article"><a>changelog_第⑧轮_2026Q2前沿 → 第⑨轮_协议层回补</a><div class="meta"><span class="tag">⑧-⑨</span>前沿更新+协议回补</div></div>
+<div class="article"><a>changelog_第⑩轮_自对弈进化 → 第⑪轮_行业应用设计</a><div class="meta"><span class="tag">⑩-⑪</span>自对弈+行业应用</div></div>
+<div class="article"><a>changelog_第⑫轮_θ*_014自对弈验证</a><div class="meta"><span class="tag">⑫</span>监督执行分离律验证</div></div>
+<div class="article"><a>changelog_第⑬轮_MikeKrieger校准入库</a><div class="meta"><span class="tag">⑬</span>Anthropic访谈校准</div></div>
+<div class="article"><a>changelog_第⑭轮_MopMonk扫地僧案例入库</a><div class="meta"><span class="tag">⑭最新</span>实战案例分析入库</div></div>
+</div>
+</div>
+
+<!-- 实战案例 -->
+<div class="section">
+<div class="section-title"><span class="emoji">⚔️</span> 实战案例与对标分析 <span class="count">· 19篇</span></div>
+<div class="article-list">
+<div class="article"><a>MopMonk_扫地僧Agent_CyberGym_Harness工程化案例分析 C13</a><div class="meta"><span class="tag">⭐最新</span>扫地僧Agent完整工程化分析</div></div>
+<div class="article"><a>09_行业应用设计_量化交易多Agent系统_TradingAgents</a><div class="meta"><span class="tag">量化</span>TradingAgents系统完整解构</div></div>
+<div class="article"><a>项目结构说明_TradingAgents目录树与模块依赖</a><div class="meta"><span class="tag">工程</span>TradingAgents工程结构</div></div>
+<div class="article"><a>07_竞品对标分析_主流多Agent框架对比</a><div class="meta"><span class="tag">对标</span>主流框架横向对比</div></div>
+<div class="article"><a>08_实战案例沉淀_真实世界Multi-Agent部署案例库</a><div class="meta"><span class="tag">案例库</span>真实世界部署案例集</div></div>
+<div class="article"><a>多Agent协作实战案例集</a><div class="meta"><span class="tag">案例</span>综合实战案例</div></div>
+<div class="article"><a>Agora协议安全审计案例</a><div class="meta"><span class="tag">安全</span>Agora协议安全审计</div></div>
+<div class="article"><a>Agent协作性能优化</a><div class="meta"><span class="tag">性能</span>协作性能优化方案</div></div>
+<div class="article"><a>多Agent安全与权限管理</a><div class="meta"><span class="tag">安全</span>安全与权限管理</div></div>
+<div class="article"><a>Agent协作通信协议设计规范</a><div class="meta"><span class="tag">协议</span>通信协议设计规范</div></div>
+<div class="article"><a>多模型协作策略</a><div class="meta"><span class="tag">策略</span>多模型协作策略</div></div>
+<div class="article"><a>Agent退化检测与自修复</a><div class="meta"><span class="tag">韧性</span>退化检测与自修复机制</div></div>
+<div class="article"><a>Agent记忆系统设计</a><div class="meta"><span class="tag">记忆</span>Agent记忆系统设计</div></div>
+<div class="article"><a>OpenClaw多Agent长时间协作操作策略</a><div class="meta"><span class="tag">长协作</span>OpenClaw长时间协作</div></div>
+<div class="article"><a>多Agent长期协作策略-模式与框架</a><div class="meta"><span class="tag">框架</span>长期协作的模式与框架</div></div>
+<div class="article"><a>十大科技巨头经营策略案例深度解析</a><div class="meta"><span class="tag">对标</span>科技巨头策略分析</div></div>
+<div class="article"><a>实战案例量化指标补充 v1.0</a><div class="meta"><span class="tag">指标</span>实战评估量化指标</div></div>
+<div class="article"><a>跨知识库相关性补充</a><div class="meta"><span class="tag">关联</span>跨知识库相关性分析</div></div>
+</div>
+</div>
+
+<!-- 根目录精华 -->
+<div class="section">
+<div class="section-title"><span class="emoji">💎</span> 根目录精华 <span class="count">· 16篇</span></div>
+<div class="article-list">
+<div class="article"><a>Claude_Code_演进深度分析</a><div class="meta"><span class="tag">⭐</span>Claude Code演进深度分析</div></div>
+<div class="article"><a>CCDP_v1.0_认知控制诊断协议</a><div class="meta"><span class="tag">⭐</span>Agent认知控制诊断协议</div></div>
+<div class="article"><a>Fable深度分析_复杂系统视角</a><div class="meta"><span class="tag">⭐</span>Fable框架复杂系统分析</div></div>
+<div class="article"><a>self-play-report-R1</a><div class="meta"><span class="tag">自对弈</span>Self-Play验证报告</div></div>
+<div class="article"><a>三Agent循环_知识发芽报告</a><div class="meta"><span class="tag">实验</span>三Agent协作循环实验</div></div>
+<div class="article"><a>知识发芽报告_神经元直接依赖假说</a><div class="meta"><span class="tag">假说</span>神经元直接依赖假说</div></div>
+<div class="article"><a>知识发芽报告_大脑旋转波_TF注意力</a><div class="meta"><span class="tag">最新</span>大脑旋转波与TF注意力 (2026-07-01)</div></div>
+<div class="article"><a>11_讨论_心理学实证到多Agent系统的跨域映射</a><div class="meta"><span class="tag">跨域</span>心理学→多Agent映射</div></div>
+<div class="article"><a>映射整合：生物稳态 ↔ Multi-Agent (笔记)</a><div class="meta"><span class="tag">跨域</span>生物稳态→多Agent映射</div></div>
+<div class="article"><a>11_讨论帖_Transformer拓扑困境与循环架构 (笔记)</a><div class="meta"><span class="tag">笔记</span>拓扑困境讨论笔记</div></div>
+</div>
+</div>
+
+<footer>
+<p>📚 本索引由 Hermes Agent 自动生成 · 数据来源：IMA 知识库「多 Agent 协作系统」</p>
+<p><a href="https://ima.qq.com/wiki/?shareId=2d9d45799de0a9e2ae09e6948b42e338528e9a1f24e888803fbb4c7a2cad0d21" target="_blank">在 IMA 中打开完整知识库 →</a></p>
+<p style="margin-top:8px;color:var(--text-dim)">最后更新：2026年7月2日 · 内容共146条</p>
+</footer>
+</div>
+</body>
+</html>
